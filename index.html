@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartstar Digital | JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 Smartstar Digital — JavaScript Fundamentals</h1>
+    <p>Mastering Variables, Functions, Loops, and the DOM</p>
+  </header>
+
+  <main>
+    <!-- Part 1 -->
+    <section id="basics">
+      <h2>🎯 Part 1: JavaScript Basics</h2>
+      <p id="welcome-msg">Hello, Smartstar Digital learner! 👋</p>
+      <button onclick="askUser()">Enter Your Name</button>
+    </section>
+
+    <!-- Part 2 -->
+    <section id="functions">
+      <h2>❤️ Part 2: Functions</h2>
+      <button onclick="showTotal(150, 200)">Calculate Total</button>
+      <button onclick="toggleMessage()">Toggle Message</button>
+      <p id="toggle-text" style="display:none;">✨ You toggled me!</p>
+    </section>
+
+    <!-- Part 3 -->
+    <section id="loops">
+      <h2>🔁 Part 3: Loops</h2>
+      <button onclick="listServices()">Show Our Services</button>
+      <ul id="services-list"></ul>
+    </section>
+
+    <!-- Part 4 -->
+    <section id="dom">
+      <h2>🌐 Part 4: DOM Mastery</h2>
+      <button onclick="changeBrandColor()">Change Brand Color</button>
+      <button onclick="addNewService()">Add New Service</button>
+      <div id="brand-box">Smartstar Digital Branding Box</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Smartstar Digital. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
